@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+  <head>
+    <meta charset="utf-8">
+    <meta content="tink!" name="author" />
+
+    <title>{{ post.title }}</title>
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/stylesheets/page.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="topbar" data-scrollspy="scrollspy" >
+      <div class="topbar-inner">
+        <div class="container" id='logo-container'>
+          <ul class="social">
+            <li><a class="twitter" href="https://twitter.com/tink">twitter</a></li>
+            <li><a class="facebook" href="http://www.facebook.com">facebook</a></li>
+            <li><a class="mail" href="/contato">contato</a></li>
+          </ul>
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/produtos">Produtos</a></li>
+              <li><a href="/parceiros">Parceiros</a></li>
+            </ul>
+            <a id="logo" href="/"><img src='/images/tink-logo-t.png' alt="tink! It's all about IT" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class='page'>
+      <div class='container clearfix'>
+        {{ content }}
+      </div>
+    </div>
+
+  </body>
+</html>

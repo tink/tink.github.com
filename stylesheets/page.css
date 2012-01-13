@@ -1,0 +1,65 @@
+.topbar {
+  position: initial !important;
+  height: auto !important;
+}
+.topbar a {
+  color: #919191;
+  text-shadow: -1px -1px black;
+  -webkit-transition: color 0.3s ease-in;
+     -moz-transition: color 0.3s ease-in;
+          transition: color 0.3s ease-in;
+}
+.topbar li {
+  padding-right: 10px;
+}
+
+.social {
+  border-left: 1px solid #444;
+  padding-left: 20px !important;
+  float: right !important;
+}
+
+.social li {
+  text-indent: -99999px;
+  padding-left: 0px;
+  float: left;
+}
+
+.social .twitter {
+  background-image: url(../images/icon-twitter.png);
+}
+.social .facebook {
+  background-image: url(../images/icon-facebook.png);
+}
+.social .phone {
+  background-image: url(../images/icon-phone.png);
+}
+.social .mail {
+  background-image: url(../images/icon-mail.png);
+}
+
+.social li a {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding-left: 10px !important;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.3s ease-in;
+     -moz-transition: opacity 0.3s ease-in;
+          transition: opacity 0.3s ease-in;
+}
+
+#logo-container {
+  clear: both;
+  padding: 20px;
+}
+#logo-container ul {
+  margin-top: 10px;
+}
+#logo-container .nav {
+  float: right !important;
+}
+
+.page {
+  padding: 20px 0;
+  background: #E4EBE9 url(../images/pattern.png) repeat top left;
+}
